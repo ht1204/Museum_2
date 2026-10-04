@@ -10,6 +10,8 @@
 
     object-fit: cover;
 
+    @include hover(transform, scale(1.05));
+
     @include on-tablet {
       margin-bottom: 30px;
     }
